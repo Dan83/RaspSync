@@ -1,0 +1,15 @@
+{
+  "name": "sync",
+  "version": "1.0.0",
+  "description": "Sync project ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index.js"
+  },
+  "author": "Daniele B.",
+  "license": "ISC",
+  "dependencies": {
+    "daemon": "^1.1.0"
+  }
+}

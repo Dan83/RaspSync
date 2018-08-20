@@ -1,0 +1,12 @@
+[Unit]
+Description=Sync System
+After=network.target
+
+[Service]
+User=luke
+Environment=
+WorkingDirectory=/home/daniele/sync
+ExecStart=/usr/bin/node lib/index.js
+
+[Install]
+WantedBy=multi-user.target
